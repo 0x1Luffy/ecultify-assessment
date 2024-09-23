@@ -1,10 +1,11 @@
+import Navbar from './components/Navbar';
 
 function App() {
-
-
   return (
-    <h1 className="bg-red-600">Hello</h1>
-  )
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
-export default App
+export default App;
