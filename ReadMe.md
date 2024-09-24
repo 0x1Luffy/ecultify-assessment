@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
     <img src="https://i.ibb.co/FKH6DP0/3504847.jpg" alt="Ecultify" style="max-width: 100%; height: auto;">
 </div>
 
