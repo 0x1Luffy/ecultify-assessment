@@ -5,8 +5,8 @@ import Heading from "./Heading";
 
 const Section = () => {
   return (
-    <div className="h-screen flex flex-col items-center">
-      <div className="flex gap-20 justify-center mb-28">
+    <div className="h-screen flex flex-col items-start mx-auto max-w-7xl">
+      <div className="flex gap-20 justify-start mb-28 w-full">
         <ShimmerCard
           img="https://via.placeholder.com/300"
           width="w-[512px]"
@@ -18,11 +18,11 @@ const Section = () => {
           height="h-[350px]"
         />
       </div>
-      <div className=" flex w-full max-w-7xl">
-            <Heading headingText={"Heading"} subheadingText={"Subheading"} />
-          </div>
-      <div className="flex flex-col w-full items-center px-4 sm:px-10 md:px-20 lg:px-28">
-        <div className="flex flex-wrap justify-center gap-4 w-full">
+      <div className="flex w-full">
+        <Heading headingText={"Heading"} subheadingText={"Subheading"} />
+      </div>
+      <div className="flex flex-col w-full items-start">
+        <div className="flex flex-wrap justify-between gap-4 w-full">
           {quotes.map((quote) => (
             <div key={quote.id} className="flex-shrink-0 w-1/4 p-2">
               <QuoteCard
