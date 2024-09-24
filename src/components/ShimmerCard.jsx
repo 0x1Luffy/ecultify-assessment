@@ -1,6 +1,6 @@
 const ShimmerCard = ({ width = "w-full", height = "h-64" }) => {
   return (
-    <div className={`bg-white shadow-md overflow-hidden ${width} ${height} animate-pulse`}>
+    <div className={`bg-white shadow-md overflow-hidden ${width} ${height} animate-pulse rounded-lg`}>
       <div className={`bg-gray-200 ${height} flex justify-center items-center`}>
         <div className="w-3/4 h-3/4 bg-gray-300 rounded"></div>
       </div>

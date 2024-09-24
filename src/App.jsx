@@ -1,4 +1,6 @@
 import About from './components/About';
+import CardGridImages from './components/CardGridImages';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Section from './components/Section';
@@ -10,6 +12,8 @@ function App() {
       <Hero/>
       <Section/>
       <About/>
+      <CardGridImages/>
+      <Footer/>
     </div>
   );
 }
