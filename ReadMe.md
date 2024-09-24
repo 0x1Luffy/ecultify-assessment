@@ -1,33 +1,52 @@
-# Ecultify Assessment
+<div style="text-align: center;">
+    <img src="https://i.ibb.co/FKH6DP0/3504847.jpg" alt="Ecultify" style="max-width: 100%; height: auto;">
+</div>
+
+# Ecultify Assessemnt
+I had to create Website using the below Figma File.
+https://www.figma.com/design/1ZKPnXFZ0tdvb0crxYNNhr/Godlike?node-id=0-1&node-type=canvas&t=SkouGJPKEipkELmi-0
 
 ## Features
 
-- Responsive design across all devices
-- Clean and minimalistic UI
-- Reusable React components
-- Tailwind CSS for styling
-- Easy to maintain and extend
+- **Responsive Design**
+- **Reuseable Components**
+- **Industry Level Best Practices** 
+- **Minimal Code**
 
-## Live Demo
+## Technologies Used
 
-You can view the live version of this project at: [Live Demo Link](https://your-live-demo-url.com) <!-- Replace with your live URL if deployed -->
+- **React:** A JavaScript library for building user interfaces, allowing for the creation of reusable UI components and efficient rendering.
+- **Tailwind CSS:** Tailwind CSS is employed for rapid UI development with utility-first CSS classes, enabling quick styling and responsiveness.
 
-## Screenshots
+## Getting Started
 
-![Screenshot](path_to_screenshot.png)
+To get started with the project, follow these steps:
 
-## Installation Guide
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/0x1Luffy/ecultify-assessment
+   ```
 
-### Prerequisites
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd ecultify-assessment
+   ```
 
-- Node.js (>= 12.x)
-- npm or yarn
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-### Clone the Repository
+4. **Start the Development Server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+   This command starts the development server. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-```bash
-git clone https://github.com/your-username/react-tailwind-webpage.git
-cd react-tailwind-webpage
-npm install
-npm start
+## Contributing
 
+Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.
